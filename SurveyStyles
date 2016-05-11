@@ -1,0 +1,18 @@
+.appArea:nth-child(2) {
+  width:1000px;
+}
+.appArea:nth-child(2) > table > tbody > tr > td > table {
+  width:1000px;
+}
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr{
+  width:400px;
+  display:inline-block;
+}
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2),
+.NetscapeFix {
+  display:inline-block;
+}
+.NetscapeFix > input {
+  width:380px;
+  /*other input field styles go here */
+}
