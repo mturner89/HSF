@@ -53,6 +53,7 @@ fieldset > legend > span > span {
 }
 fieldset > table > tbody > tr > td:last-child > label {
   color:#555555;
+  font-size:15px;
 }
 .checkbox {
   width: 20px;
