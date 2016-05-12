@@ -22,7 +22,7 @@
 .appArea:nth-child(2) > table > tbody > tr > td:nth-child(2) > label > span,
 fieldset > legend > span > span {
   font-weight:bold;
-  color:#757575;
+  color:#555555;
 }
 .Hint {
   color:#757575;
@@ -52,7 +52,7 @@ fieldset > legend > span > span {
   margin-top:0px;
 }
 fieldset > table > tbody > tr > td:last-child > label {
-  color:#757575;
+  color:#555555;
 }
 .checkbox {
   width: 20px;
