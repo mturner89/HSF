@@ -11,7 +11,7 @@
   width:1000px;
 }
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr{
-  width:400px;
+  width:490px;
   display:inline-block;
 }
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:first-child > p {
@@ -26,7 +26,7 @@
 }
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > input,
 .NetscapeFix > input {
-  width:350px;
+  width:420px;
   padding:10px;
   margin-top:-10px;
 }
