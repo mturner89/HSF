@@ -8,7 +8,7 @@
   width:400px;
   display:inline-block;
 }
-.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2),
+/*.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2),*/
 .NetscapeFix {
   display:inline-block;
 }
