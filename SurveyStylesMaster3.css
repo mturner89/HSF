@@ -114,3 +114,36 @@ fieldset > table > tbody > tr > td:last-child > label {
     }
 }
 
+
+@media only screen and (max-width:810px) {	
+    .appArea:nth-child(2) > table > tbody > tr > td > table,
+    .appArea:nth-child(2) {
+      width:650px;
+    }
+    .appArea:nth-child(2) {
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > input,
+    .NetscapeFix > input {
+       width:270px;
+       padding:10px;
+       margin-top:0px;
+    } 
+    .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr{
+       width:300px;
+       display:inline-block;
+    }
+    .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > select,
+    .NetscapeFix > select {
+      width:295px;
+      padding:10px;
+      margin-top:0px;
+    }
+    .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > textarea,
+    .NetscapeFix > textarea {
+      width:430px;
+      padding:10px;
+      margin-top:0px;
+    }
+}
