@@ -33,7 +33,7 @@ fieldset > legend > span > span {
   display:inline-block;
 }
 .radio {
-  width:auto;
+  width:auto !important;
   margin-right:10px;
 }
 
