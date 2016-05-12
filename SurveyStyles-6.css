@@ -27,7 +27,11 @@
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > input,
 .NetscapeFix > input {
   width:350px;
-  padding:8px;
+  padding:10px;
   margin-top:-10px;
-  /*other input field styles go here */
 }
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > select {
+ padding:10px;
+ margin-top:-10px;
+}
+
