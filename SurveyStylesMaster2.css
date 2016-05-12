@@ -1,3 +1,6 @@
+/************************************************** Desktop Styles ********************************************************/
+/*************************************************************************************************************************/
+
 .appArea > h3 {
   font-size: 38px;
   font-weight: 700;
@@ -75,4 +78,39 @@ fieldset > table > tbody > tr > td:last-child > label {
   font-weight:normal;
 }
 
+/************************************************** Tablet/Ipad Styles*****************************************************/
+/*************************************************************************************************************************/
+
+@media only screen and (max-width:993px) {	
+    .appArea:nth-child(2) > table > tbody > tr > td > table,
+    .appArea:nth-child(2) {
+      width:800px;
+    }
+    .appArea:nth-child(2) {
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > input,
+    .NetscapeFix > input {
+       width:300px;
+       padding:10px;
+       margin-top:0px;
+    } 
+    .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr{
+       width:350px;
+       display:inline-block;
+    }
+    .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > select,
+    .NetscapeFix > select {
+      width:320px;
+      padding:10px;
+      margin-top:0px;
+    }
+    .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > textarea,
+    .NetscapeFix > textarea {
+      width:430px;
+      padding:10px;
+      margin-top:0px;
+    }
+}
 
