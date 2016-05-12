@@ -38,8 +38,7 @@ fieldset > legend > span > span {
 }
 
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > input,
-.NetscapeFix > input
-{
+.NetscapeFix > input {
   width:420px;
   padding:10px;
   margin-top:0px;
@@ -67,6 +66,10 @@ fieldset > table > tbody > tr > td:last-child > label {
   border-radius: 5px;
   border: 2px solid #555;
 }
-
+.Button {
+  border-radius:8px; 
+  padding:10px;
+  font-weight:normal;
+}
 
 
