@@ -32,6 +32,11 @@ fieldset > legend > span > span {
 .NetscapeFix {
   display:inline-block;
 }
+.radio {
+  width:auto;
+  margin-right:10px;
+}
+
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > input,
 .NetscapeFix > input
 {
@@ -61,10 +66,6 @@ fieldset > table > tbody > tr > td:last-child > label {
   background: white;
   border-radius: 5px;
   border: 2px solid #555;
-}
-.radio {
-  width:auto;
-  margin-right:10px;
 }
 
 
