@@ -24,6 +24,10 @@ fieldset > legend > span > span {
   font-weight:bold;
   color:#757575;
 }
+.hint {
+  color:#757575
+  font-weight:normal;  
+}
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child,
 .NetscapeFix {
   display:inline-block;
