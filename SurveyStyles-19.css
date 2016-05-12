@@ -33,10 +33,17 @@ fieldset > legend > span > span {
   display:inline-block;
 }
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > input,
-.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > select,
-.NetscapeFix > input,
-.NetscapeFix > select{
+.NetscapeFix > input
+{
   width:420px;
+  padding:10px;
+  margin-top:0px;
+}
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > select,
+.NetscapeFix > select,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > textarea,
+.NetscapeFix > textarea {
+  width:450px;
   padding:10px;
   margin-top:0px;
 }
