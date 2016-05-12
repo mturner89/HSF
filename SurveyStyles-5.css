@@ -24,7 +24,7 @@
 .NetscapeFix {
   display:inline-block;
 }
-.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > input,
 .NetscapeFix > input {
   width:350px;
   padding:8px;
