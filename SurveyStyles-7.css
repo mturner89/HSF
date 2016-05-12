@@ -14,10 +14,26 @@
   width:490px;
   display:inline-block;
 }
-.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:first-child > p {
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:first-child > p,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td:first-child > p,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr:nth-child(3) > td:first-child > p,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr:nth-child(4) > td:first-child > p,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr:nth-child(5) > td:first-child > p,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr:nth-child(6) > td:first-child > p,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr:nth-child(7) > td:first-child > p,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr:nth-child(8) > td:first-child > p,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr:nth-child(9) > td:first-child > p,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr:nth-child(10) > td:first-child > p {
   color:red;  
 }
-.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > p {
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > p,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > p
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > p
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > p
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > p
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > p
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > p
+{
   font-weight:bold;
 }
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child,
@@ -25,13 +41,11 @@
   display:inline-block;
 }
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > input,
+.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > select,
 .NetscapeFix > input {
   width:420px;
   padding:10px;
   margin-top:-10px;
 }
-.appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child > select {
- padding:10px;
- margin-top:-10px;
-}
+
 
