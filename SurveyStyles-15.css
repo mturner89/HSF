@@ -22,6 +22,7 @@
 .appArea:nth-child(2) > table > tbody > tr > td:nth-child(2) > label > span,
 fieldset > legend > span > span {
   font-weight:bold;
+  color:#757575;
 }
 .appArea:nth-child(2) > table > tbody > tr > td > table > tbody > tr > td:last-child,
 .NetscapeFix {
