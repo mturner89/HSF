@@ -411,21 +411,30 @@
 	padding-right:10px;
 	font-size:12px;
 }
-.footersocial {
-	float:right;
-}
-.footershare {
-	float:right;
-}
-.footersocial {
-	float:right;
-}
 #footerprivacy > p {
 	color:#bbb;
 	font-size:12px;
 }
 #footerprivacy > p  > a{
 	color:#ee3344;
+}
+.footer-link-wrapper > p {
+	float:left;
+	margin-right:15px;
+}
+.footersocial {
+	float:left;
+}
+.socialicon,
+.socialicon > span
+.socialicon > a,
+.footershare,
+.footershare > span,
+.footershare > .addthis_toolbox {
+	float:left;
+}
+.footerprivacy {
+	clear:both;
 }
 
 
