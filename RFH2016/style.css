@@ -222,7 +222,7 @@
 	position:relative;
 	width:100%;
 	padding-top:5px;
-	padding-left:20px;
+	/*padding-left:20px;*/
 	color:#fff;
 }
 .slider-1-caption > p,
@@ -231,6 +231,7 @@
 	font-weight:bold;
 	font-size:165%;
 	text-transform:uppercase;
+	margin-left:20px;
 }
 .slider-1-caption > p > span,
 .slider-2-caption > p  > span{
