@@ -60,7 +60,7 @@
 
 #nav {
 	background-color:#ee3344;
-	margin-top:-1px;
+	margin-top:10px;
 	clear:both;	
 }
 #nav > ul {
@@ -82,7 +82,7 @@
 	text-transform:uppercase;
 	font-size:15px;
 	font-weight:bold;
-	padding:15px;
+	padding:13px;
 }
 .nav-item > a:hover {
 	background-color:#ce0000;
