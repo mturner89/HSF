@@ -1,0 +1,601 @@
+/******************************** Login Styles ***********************************/
+/*********************************************************************************/
+
+.login-wrapper {
+	margin-top:10px;
+	height:33px;
+}
+.login-wrapper > form  {
+	display:inline;
+	float:left;
+}
+.login-wrapper > form > span {
+	font-weight: bold;
+	color:#ee3344;
+	margin-right:10px;
+}
+#loginusername,
+#loginpassword{
+	border-radius:4px;
+	border:1px solid #777;
+	padding:3px;
+}
+.submit {
+	color:#fff;
+	background-color:#ee3344;
+	border:none;
+	border-color:#ee3344;
+	font-weight:bold;
+	padding:4px;
+	padding-left:6px;
+	padding-right:6px;
+	border-radius:4px;
+}
+.social-login {
+	float:right;
+	display:inline;
+}
+.social-login  > label {
+	margin-left:20px;
+}
+#header_gigya,
+.need-help-logging-in {
+	display:inline;
+	margin-left:10px;
+}
+.need-help-logging-in > a {
+	color:#ee3344;
+	font-size:12px;
+	text-decoration:none;
+}
+.need-help-logging-in > a:hover,
+.need-help-logging-in > a :active {
+	text-decoration:underline;
+	color:#ee3344;
+}
+
+
+/****************************************************** Navigation Styles **************************************************************************************/
+/***************************************************************************************************************************************************************/
+
+#nav {
+	background-color:#ee3344;
+	margin-top:-1px;
+	clear:both;	
+}
+#nav > ul {
+	padding:0px;
+	list-style-type:none;
+}
+#nav-home {
+	margin-left:10px;
+}
+#nav-home > a:hover {
+	background-color:#ee3344;
+}
+.nav-item {	
+	display:inline-block;	
+}
+.nav-item > a {
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:15px;
+	font-weight:bold;
+	padding:15px;
+}
+.nav-item > a:hover {
+	background-color:#ce0000;
+	cursor:pointer;
+}
+#nav-about-child,
+#nav-register-child,
+#nav-fundraise-child,
+#nav-challenge-child,
+#nav-participant-child {
+	list-style-type:none;
+	display:none;
+	padding:0px;		
+	background-color:rgba(238,51,68,0.8);
+	margin-top:16px;
+}
+#nav-about-child > li,
+#nav-register-child > li,
+#nav-fundraise-child > li,
+#nav-challenge-child > li ,
+#nav-participant-child > li {		
+	border-bottom:1px solid #fff;
+	display:block;
+	position:relative;
+
+}
+#nav-about-child > li > a,
+#nav-register-child > li > a,
+#nav-fundraise-child > li > a,
+#nav-challenge-child > li > a,
+#nav-participant-child > li > a {
+	color:#fff;
+	text-decoration:none;
+	padding:12px;
+	padding-right:100px;
+	display:block;
+	font-weight:bold;
+	font-size:13px;
+}
+#nav-about-child > li > a:hover,
+#nav-register-child > li > a:hover,
+#nav-fundraise-child > li > a:hover,
+#nav-challenge-child > li > a:hover,
+#nav-participant-child > li > a:hover {
+	background-color:#ce0000;
+}
+#nav-about:hover > #nav-about-child {
+	display:block;
+	position:absolute;	
+	z-index:999999;
+}
+#nav-register:hover > #nav-register-child {
+	display:block;
+	position:absolute;	
+	z-index:999999;
+}
+#nav-fundraise:hover > #nav-fundraise-child {
+	display:block;
+	position:absolute;	
+	z-index:999999;
+}
+#nav-challenge:hover > #nav-challenge-child {
+	display:block;
+	position:absolute;	
+	z-index:999999;
+}
+#nav-participant:hover > #nav-participant-child {
+	display:block;
+	position:absolute;	
+	z-index:999999;
+}
+
+#mobile-nav {
+	display:none;
+	height:40px;
+}
+#mobile-nav > ul {
+	list-style-type:none;
+}
+#mobile-nav > ul > li:first-child {
+	border-right:1px solid #fff;
+	display:block;
+	position:relative;
+	float:left;
+}
+#mobile-nav > ul > li:nth-child(2) {
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	display:block;
+	position:relative;
+	float:left;
+}
+#mobile-nav > ul > li:last-child {
+	border-left:1px solid #fff;
+	display:block;
+	position:relative;
+	float:left;
+}
+#mobile-nav > ul > li > a {
+	color:#fff;
+	font-size:16px;
+	text-decoration:none;
+	padding-left:105px;
+	padding-right:105px;
+	font-weight:bold;
+	
+}
+
+/********************************************** Slider Styles ******************************************************************/
+/*******************************************************************************************************************************/
+#slider-container {
+	overflow:hidden;
+}
+#slider-wrapper {
+	width:200%;
+	height:375px;
+	-webkit-animation:slide 20s infinite;
+	-moz-animation:slide 20s inifinite;
+	animation:slide 20s infinite;
+}
+.slider-1, 
+.slider-2 {
+	width:50%;
+	height:100%;
+	float:left;
+}
+.slider-1 > img,
+.slider-2 > img {
+	height:100%;
+	width:100%;
+}
+.slider-1-caption,
+.slider-2-caption {
+	height:100px;
+	margin-top:-100px;
+	background-color:rgba(0,0,0,0.7);
+	position:relative;
+	width:100%;
+	padding-top:5px;
+	padding-left:20px;
+	color:#fff;
+}
+.slider-1-caption > p,
+.slider-2-caption > p {
+	color:#fff;
+	font-weight:bold;
+	font-size:165%;
+	text-transform:uppercase;
+}
+.slider-1-caption > p > span,
+.slider-2-caption > p  > span{
+	color:#fff;
+	background-color:#ee3344;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:50px;
+}
+@-webkit-keyframes slide{
+    0%,100% {
+        margin-left:0%;
+    }    
+	12% {
+		margin-left:0%;
+	}
+	24% {
+		margin-left:0%;
+	}
+	36% {
+		margin-left:0%;
+	}
+	50% {
+		margin-left:-100%;
+	}
+	60% {
+        margin-left:-100%;
+    }
+    72% {
+        margin-left:-100%;
+    }    
+    84% {
+        margin-left:-100%;  
+    }
+	
+}
+/*
+@-webkit-keyframes slide{
+    0%,100% {
+        margin-left:0%;
+    }    
+    12% {
+        margin-left:0%;
+    }    
+    24% {
+        margin-left:-100%;
+    }    
+    36% {
+        margin-left:-100%;
+    }    
+    48% {
+        margin-left:0%;
+    }    
+    60% {
+        margin-left:0%;
+    }
+    72% {
+        margin-left:-100%;
+    }    
+    84% {
+        margin-left:-100%;  
+    }
+}*/
+/*
+@-moz-keyframes slide{
+  0%,100% {
+        margin-left:0%;
+    }    
+    12% {
+        margin-left:0%;
+    }    
+    24% {
+        margin-left:-100%;
+    }    
+    36% {
+        margin-left:-100%;
+    }    
+    48% {
+        margin-left:-200%;
+    }    
+    60% {
+        margin-left:-200%;
+    }    
+    72% {
+        margin-left:-300%;
+    }    
+    84% {
+        margin-left:-300%;  
+    }
+}
+@keyframes slide{
+  0%,100% {
+        margin-left:0%;
+    }    
+    12% {
+        margin-left:0%;
+    }    
+    24% {
+        margin-left:-100%;
+    }    
+    36% {
+        margin-left:-100%;
+    }    
+    48% {
+        margin-left:-200%;
+    }    
+    60% {
+        margin-left:-200%;
+    }    
+    72% {
+        margin-left:-300%;
+    }    
+    84% {
+        margin-left:-300%;  
+    }
+}
+*/
+
+/******************************************************** Home Page Promo Boxes ************************************************************/
+/*******************************************************************************************************************************************/
+.promobox {
+	padding:10px;
+	padding-top:20px;
+}
+.promobox-inner {
+	background-color:#ededed;	
+	padding:15px;
+	height:150px;
+}
+.promobox-inner > img,
+.promobox-inner > h3 {
+	float:left;
+}
+.promobox-inner > h3 {
+	margin-left:20px;
+	color:#ef3e42;
+	font-size:160%;
+}
+.promobox-inner > div {
+	margin-top:-15px;
+	background-color:#ef3e42;
+	padding:10px;
+	width:62%;
+	height:20px;
+	float:left;
+	margin-left:20px;
+}
+.promobox-inner > div > p {
+	margin-top:0px;
+	margin-left:15px;
+	color:#fff;
+	font-weight:bold;
+}
+
+
+
+/********************************************************** Media Querries - Desktop ***********************************************************************/
+/***********************************************************************************************************************************************************/
+@media only screen and (max-width:1052px){
+	.nav-item > a {
+		padding-left:10px;
+		padding-right:10px;
+		font-size:14px;
+	}
+	.promobox-inner > h3 {
+		font-size:120%;
+	}
+	.promobox-inner > div {
+		margin-top:0px;
+		width:52%;	
+	}
+
+}
+
+@media only screen and (max-width:951px){
+	#login-container {
+		display:none;
+	}
+	#nav > ul {
+		display:none;
+	}
+	#mobile-nav {
+		display:block;
+	}
+	.collapse-nav {
+		margin-top:-18px;
+	}
+	.promobox {
+		margin-left:0px !important;
+		margin-right:0px !important;
+	}
+
+}
+
+
+
+
+
+@media only screen and (max-width:920px){	
+	.slider-1-caption,
+	.slider-2-caption {
+		height:80px;
+		margin-top:-85px;
+	
+	}
+	
+	.slider-1-caption > p,
+	.slider-2-caption > p {
+		color:#fff;
+		font-weight:bold;
+		font-size:125%;
+		text-transform:uppercase;
+	}
+	.slider-1-caption > p > span,
+	.slider-2-caption > p  > span{
+		color:#fff;
+		background-color:#ee3344;
+		padding:5px;
+		padding-left:10px;
+		padding-right:10px;
+		margin-left:50px;
+	}
+}
+
+
+
+
+/******************************************************************** Media Querries - Tablets *******************************************************************/
+/****************************************************************************************************************************************************************/
+
+@media only screen and (max-width:880px){
+	#mobile-nav {
+		height:35px;
+	}
+	
+	#mobile-nav > ul > li > a {
+		padding-left:75px;
+		padding-right:75px;
+	}
+	#slider-wrapper {
+		height:auto;
+	}
+	.slider-1,
+	.slider-2,
+	.slider-1 > img,
+	.slider-2 > img{
+		height:auto;
+		
+	}
+
+}
+
+@media only screen and (max-width:750px){
+	.slider-1-caption,
+	.slider-2-caption {
+		margin-top:-65px;
+		height:60px;
+	}
+	
+	.slider-1-caption > p,
+	.slider-2-caption > p {
+		color:#fff;
+		font-weight:bold;
+		font-size:105%;
+		text-transform:uppercase;
+	}
+	.slider-1-caption > p > span,
+	.slider-2-caption > p  > span{
+		color:#fff;
+		background-color:#ee3344;
+		padding:5px;
+		padding-left:10px;
+		padding-right:10px;
+		margin-left:50px;
+	}
+}
+
+@media only screen and (max-width:705px){
+	#mobile-nav > ul > li > a {
+		padding-left:55px;
+		padding-right:55px;
+	}
+}
+
+@media only screen and (max-width:640px){
+	.slider-1-caption,
+	.slider-2-caption {
+		margin-top:-45px;
+		height:40px;
+	}	
+	.slider-1-caption > p,
+	.slider-2-caption > p {		
+		font-size:85%;		
+	}	
+}
+
+/****************************************************************** Media Querries - Phones ************************************************************************/
+/*******************************************************************************************************************************************************************/
+
+@media only screen and (max-width:583px){
+	#mobile-nav > ul > li:last-child {
+		display:none;
+	}
+	#mobile-nav > ul > li:nth-child(2) {
+		border-right:0px;
+	}
+	.slider-1-caption,
+	.slider-2-caption {
+		margin-top:0px;		
+		background-color:#333;
+		height:auto;
+		padding-bottom:10px;
+	}
+	.slider-1-caption > p,
+	.slider-2-caption > p{
+		text-align:center;		
+	}
+	.slider-1-caption > p > span,
+	.slider-2-caption > p > span{
+		display:block;
+		width:40%;
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:5px;
+	}
+}
+@media only screen and (max-width:460px){
+	.promobox-inner {
+		height:auto;
+	}
+	.promobox-inner > img {
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.promobox-inner > h3 {
+		float:none;	
+		text-align:center;		
+	}
+	.promobox-inner > div {
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.slider-1-caption > p,
+	.slider-2-caption > p{
+		text-align:center;	
+		margin-left:-20px;		
+	}
+}
+
+
+
+@media only screen and (max-width:405px){
+	#mobile-nav > ul > li > a {
+		padding-left:35px;
+		padding-right:35px;
+	}
+}
+
+@media only screen and (max-width:320px){
+	#mobile-nav > ul > li > a {
+		padding-left:25px;
+		padding-right:25px;
+	}
+}
