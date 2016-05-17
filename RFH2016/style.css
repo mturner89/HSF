@@ -388,6 +388,48 @@
 }
 
 
+/******************************************************************* Footer Styles ***********************************************************************/
+/*********************************************************************************************************************************************************/
+#footermain > div > p > a {
+	color:#ee3344;
+}
+#footermain > div > p {
+	font-size:12px;
+	color:#bbb;
+}
+.footer-links {
+	list-style-type:none;
+	padding:0px;
+}
+.footer-links > li {
+	display:inline-block;
+	margin-right:10px;
+}
+.footer-links > li  > a{
+	color:#ee3344;
+	text-decoration:none;	
+	padding-right:10px;
+	font-size:12px;
+}
+.footersocial {
+	float:right;
+}
+.footershare {
+	float:right;
+}
+.footersocial {
+	float:right;
+}
+#footerprivacy > p {
+	color:#bbb;
+	font-size:12px;
+}
+#footerprivacy > p  > a{
+	color:#ee3344;
+}
+
+
+
 
 /********************************************************** Media Querries - Desktop ***********************************************************************/
 /***********************************************************************************************************************************************************/
