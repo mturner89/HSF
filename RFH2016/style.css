@@ -443,6 +443,10 @@
 #footerprivacy {
 	clear:both;
 }
+#footer_hsflogo {
+	margin-left:auto;
+	margin-right:auto;
+}
 
 
 /********************************************************** Media Querries - Desktop ***********************************************************************/
