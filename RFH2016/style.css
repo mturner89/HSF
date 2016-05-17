@@ -426,12 +426,13 @@
 	float:right;
 }
 .socialicon,
-.socialicon > span,
 .socialicon > a,
 .footershare,
-.footershare > span,
 .footershare > .addthis_toolbox {
 	float:left;
+}
+.socialicon {
+	margin-right:20px;
 }
 .footershare > span,
 .socialicon > span {
