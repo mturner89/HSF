@@ -433,6 +433,12 @@
 .footershare > .addthis_toolbox {
 	float:left;
 }
+.footershare > span,
+.socialicon > span {
+	font-size:14px;
+	color:#bbb;
+	margin-bottom:5px;
+}
 #footerprivacy {
 	clear:both;
 }
