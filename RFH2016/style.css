@@ -126,7 +126,12 @@
 #nav-register-child > li > a:hover,
 #nav-fundraise-child > li > a:hover,
 #nav-challenge-child > li > a:hover,
-#nav-participant-child > li > a:hover {
+#nav-participant-child > li > a:hover,
+#nav-about-child > li > a:active,
+#nav-register-child > li > a:active,
+#nav-fundraise-child > li > a:active,
+#nav-challenge-child > li > a:active,
+#nav-participant-child > li > a:active{
 	background-color:#ce0000;
 }
 #nav-about:hover > #nav-about-child {
