@@ -352,6 +352,121 @@
 }
 */
 
+/************************************************************ Banner Styles *******************************************************************/
+/**********************************************************************************************************************************************/
+#banner-wrapper {
+	overflow:hidden;
+}
+
+#banner-wrapper  > img{
+	min-width:990px;
+	min-height:230px;
+}
+
+.becel-logo {
+	position:absolute;
+	margin-top:-210px;
+	margin-left:15px;
+}
+
+
+/******************************************************** Triple Box Styles *****************************************************************/
+/********************************************************************************************************************************************/
+#triple-box-wrapper {
+	margin-top:30px;	
+	border:1px solid #000;
+		
+}
+#triple-box-wrapper  > .col-4 {
+	padding-bottom:20px;
+}	
+.triple-box-header {
+	background-color:#ee3344;
+	text-align:center;
+	color:#fff;
+	padding:1px;	
+}
+.triple-box-header  > p{
+	text-transform:uppercase;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;	
+}
+.triple-box-buttons {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+
+/******************************************************** In Page Search Styles *****************************************************************/
+/********************************************************************************************************************************************/
+#inpage-search-wrapper {
+	background-color:#ddd;
+	padding:20px;
+	text-align:center;
+	margin-top:20px;
+}
+#inpage-search-wrapper  > .btn {
+	font-weight:bold;
+	font-size:16px;
+}
+.inpage-search-form {
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.inpage-search-form > input {
+	border-radius:4px;
+	border:none;
+	padding:10px;
+	margin-bottom:15px;
+}
+.inpage-search-form > .btn {
+	text-transform:uppercase;
+}
+
+/******************************************************** In Page Search Styles *****************************************************************/
+/********************************************************************************************************************************************/
+#inpage-anchor {	
+	color:#fff;
+	margin-bottom:10px;		
+}
+#inpage-anchor > a > div {
+	padding-top:15px;
+	padding-bottom:30px;
+	background-color:#ee3344;
+	margin-top:0px;
+	margin-right:0px;
+	width:97.5%;
+}
+#inpage-anchor > a > div  > p {
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	margin:0px;
+	margin-top:-5px;
+	font-weight:bold;
+	font-size:16px;	
+}
+#inpage-anchor > a > div > p:last-child {
+	margin-right:10px;
+	float:right;
+}
+#inpage-anchor > a > div > p:first-child {
+	margin-left:10px;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
 /******************************************************** Home Page Promo Boxes ************************************************************/
 /*******************************************************************************************************************************************/
 .promobox {
