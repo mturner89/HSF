@@ -427,6 +427,7 @@
 	border:none;
 	padding:10px;
 	margin-bottom:15px;
+	display:block;
 }
 .inpage-search-form > .button {
 	text-transform:uppercase;
