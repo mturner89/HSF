@@ -315,51 +315,63 @@ html {
 .button:hover, .button:active, .button:visited {
 	border:1px solid transparent;
 }
-.btn-blue {
+.btn-blue,
+.btn-blue:hover {
 	background-color:#005f95;
 	color:#fff;	
 }
-.btn-red {
+.btn-red,
+.btn-red:hover {
 	background-color:#e0201b;
 	color:#fff;	
 }
-.btn-yellow {
+.btn-yellow,
+.btn-yellow:hover {
 	background-color:#ffd900;
 	color:#000;	
 }
-.btn-orange {
+.btn-orange,
+.btn-orange:hover {
 	background-color:#ff5f00;
 	color:#000;	
 }
-.btn-pink {
+.btn-pink,
+.btn-pink:hover {
 	background-color:#d30053;
 	color:#fff;	
 }
-.btn-pink2 {
+.btn-pink2,
+.btn-pink2:hover {
 	background-color:#dd2695;
 	color:#000;	
 }
-.btn-purple {
+.btn-purple,
+.btn-purple:hover {
 	background-color:#4d008a;
 	color:#fff;	
 }
-.btn-blue2 {
+.btn-blue2,
+.btn-blue2:hover {
 	background-color:#0081c8;
 	color:#fff;	
 }
-.btn-green {
+.btn-green,
+.btn-green:hover {
 	background-color:#1b881b;
 	color:#fff;	
 }
-.btn-green2 {
+.btn-green2,
+.btn-green2:hover {
 	background-color:#004a00;
 	color:#fff;	
 }
-.btn-gray {
+.btn-gray,
+.btn-gray:hover {
 	background-color:#5d646c;
 	color:#fff;	
 }
-.btn-gray2 {
+.btn-gray2,
+.btn-gray2:hover {
 	background-color:#252528;
 	color:#fff;	
 }
