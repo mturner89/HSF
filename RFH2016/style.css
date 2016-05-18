@@ -416,7 +416,7 @@
 	text-align:center;
 	margin-top:20px;
 }
-#inpage-search-wrapper  > .btn {
+#inpage-search-wrapper  > .button {
 	font-weight:bold;
 	font-size:16px;
 }
@@ -431,7 +431,7 @@
 	padding:10px;
 	margin-bottom:15px;
 }
-.inpage-search-form > .btn {
+.inpage-search-form > .button {
 	text-transform:uppercase;
 }
 
