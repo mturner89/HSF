@@ -300,7 +300,7 @@ html {
 
 
 /********************************** Button Styles *********************************/
-.btn {		
+.button {		
 	background-image:none;
 	border:1px solid transparent;
 	display:inline-block;
@@ -312,7 +312,7 @@ html {
 	padding:10px 15px;
 	text-decoration:none;
 }
-.btn:hover, .btn:active, .btn:visited {
+.button:hover, .button:active, .button:visited {
 	border:1px solid transparent;
 }
 .btn-blue {
