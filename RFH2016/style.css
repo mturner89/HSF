@@ -428,6 +428,8 @@
 	padding:10px;
 	margin-bottom:15px;
 	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 .inpage-search-form > .button {
 	text-transform:uppercase;
