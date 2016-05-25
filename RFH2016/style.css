@@ -27,6 +27,11 @@
 	border:1px solid #777;
 	padding:3px;
 }
+.partname,
+.partname > a {
+	color:#ee3344;
+	text-decoration:none;
+}
 .submit {
 	color:#fff;
 	background-color:#ee3344;
