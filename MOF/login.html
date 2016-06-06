@@ -1,0 +1,85 @@
+<div id="loLeft" class="left">
+  <div id="loLeftContent" class="full">
+    <h1 class="pageTitle">LOGIN</h1> [[?xx::x[[S1:user_name]]x::
+    <!-- Not logged in -->
+    <h2>Login to access your participant centre.</h2>
+    <ul class="inPageUl">
+      <li>Invite friends and family to your personal webpage</li>
+      <li>Ask for donations</li>
+      <li>Dare others to join you</li>
+      <li>Start or continue an e-mail campaign</li>
+      <li>Send thank-you emails</li>
+      <li>Track your progress</li>
+    </ul>
+    <p>&nbsp;</p>
+    <form id="LogonForm" name="LogonForm" action="UserLogin?NEXTURL=[[T1:[[S8]]]]" method="post" target="_top">
+      <span class="Hint"><span style="color: red;">*</span> = Required Fields</span>
+      <div class="form_element loguser">
+        <label for="USERNAME2"><span style="color: red;">*</span>User Name: </label>
+        <input type="text" value="" name="USERNAME" title="User Name" id="USERNAME2" maxlength="60" size="20" placeholder="Username" required=&#8221;required&#8221;>
+      </div>
+      <div class="form_element logpass">
+        <label for="Password2"><span style="color: red;">*</span>Password:</label>
+        <input type="password" maxlength="30" size="20" value="" name="Password" title="Password" id="Password2" placeholder="Password" required=&#8221;required&#8221;>
+      </div>
+      <div class="form_element logremb">
+        <input id="remembercheck" title="Remember Me" name="RememberMe" type="checkbox" value="RememberMe" /> <label for="remembercheck">remember me</label>
+      </div>
+      <div class="form_element subbtn">
+        <input id="login" class="button3" width="72" type="submit" height="25" name="login" value="Login">
+      </div>
+      <p>&nbsp;</p>
+      <div class="loggigya">
+        [[S202]]
+      </div>
+    </form>
+    <div id="getpassword" style="margin-top: 20px;">
+      <p>&nbsp;</p>
+      <h2>Forgot your password?</h2>
+      <P>Email me my Password</P>
+      <form id="UsercheckForm" action="UserLogin?s_AffiliateSecCatId=1181&pw_id=1721" method="post">
+        <input id="NEXTURL" name="NEXTURL" type="hidden" value="[[S8]]" />
+        <input id="SendPassword" name="SendPassword" type="hidden" value="submit" />
+        <span class="Hint"><span style="color: red;">*</span> = Required Fields</span>
+        <div class="form_element">
+          <label for="USERNAME_3"><span style="color: red;">*</span>Username (you registered with):</label>
+          <input id="USERNAME_3" name="USERNAME" type="text" placeholder="Username" size="30" maxlength="60" />
+        </div>
+        <div class="form_element">
+          <label for="Email_2"><span style="color: red;">*</span>Email (you registered with):</label>
+          <input id="Email_2" name="Email" type="text" placeholder="Email Address" size="30" maxlength="100" />
+        </div>
+        <div class="form_element">
+          <input id="SendPassword" class="button3" name="SendPassword" type="submit" value="Submit" />
+        </div>
+      </form>
+      <p><a href="UserLogin?pw_id=1721&CMD=ForgotLogin" class="anchor">Forgot Username?</a></p>
+    </div>
+    <p>&nbsp;</p>
+    ::
+    <h3>Welcome <strong>[[?xxnullxx::xx[[S1:FIRST_NAME]]xx::[[S0:USER_QUICK_REG_DEFAULT_FIRSTNAME]]::[[S1:FIRST_NAME]]]]</strong>!</h3> If you are not [[?xxnullxx::xx[[S1:FIRST_NAME]]xx::[[S0:USER_QUICK_REG_DEFAULT_FIRSTNAME]]::[[S1:FIRST_NAME]] [[S1:LAST_NAME]]]], <a href="UserLogin?pw_id=1721&logout=0&amp;NEXTURL=http://support.heartandstroke.ca/site/PageServer?pagename=tour[[S80:frID]]_home"
+      class="anchor">click here.</a>
+    <br> [[?::[[S39:0*0*10pt*true*50*0*1181*Participant Center:true]]::
+    <br>
+    <br>
+    <a href="PageServer?pagename=tour16_joinLanding" class="anchor">Join</a> ::
+    <h3 style="font-size:20px;margin-top:25px;">Click below to Access your Participant Centre</h3>
+    <p>&nbsp;</p>
+    <div id="pcList">
+      [[S39:0*0*12pt*true*50*0*0*Teamraisers:true]]
+    </div>
+    <p>&nbsp;</p>
+    ]]
+    <p><a id="wholetgaryout" class="anchor" href="UserLogin?logout=&NEXTURL=[[T1:[[S8]]]]">Logout</a></p>
+    <p><a class="anchor" href="[[S11:81=ConsProfileUser]]">Edit Profile</a></p>
+    <p><a class="anchor" href="[[S11:81=ConsProfileUser]][[?[[S11:81]]::?::&amp;::?]]op.dispConsPasswd=">Change Password</a></p>
+    ]]
+  </div>
+</div>
+</div>
+<!-- LoHolder section Ends -->
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#pcList p:contains("Teamraisers")').hide();
+  });
+</script>
