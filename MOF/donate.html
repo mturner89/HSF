@@ -1,0 +1,84 @@
+<div id="loLeft" class="left">
+  <div id="loLeftContent" class="full">
+    <h1 class="pageTitle">Donate</h1>
+    <h3>Looking for a Participant or Team to support?</h3>
+    <p>
+      It's easy to find what you're looking for!
+    </p>
+    <p>
+      Step 1: Click on Find a Participant or Find a Team <br> Step 2: Enter the person&#8217;s first name and last name or team name <br> Step 3: Click search<br> Step 4: Click on the person or team name and you'll go to their fundraising page<br> Step
+      5: Click on &#8220;Donate Now&#8221;<br>
+    </p>
+    <p>
+      Thank you for helping us to create more survivors!
+    </p>
+    <div class="actionBox">
+      <a href="javascript:void(0);" id="donateShowFindParticipant" class="button7 joinShow">Find a Participant</a>
+      <a href="javascript:void(0);" id="donateShowFindTeam" class="button7 joinShow">Find a Team</a><br><br><br>
+      <div style="display: none;" id="donateFindParticipant" class="actionBoxToggle">
+        <input class="fancySearch" placeholder="First Name" id="donateParticipantFName" type="text" style="margin-bottom: 0;">
+        <div class="apiButtonWrapper">
+          <input class="fancySearch" placeholder="Last Name" id="donateParticipantLName" type="text">
+          <button class="searchTeamButton" onclick="return donateParticipantSearch();">Search</button>
+        </div>
+      </div>
+      <div style="display: none;" id="donateFindTeam" class="actionBoxToggle">
+        <div class="apiButtonWrapper">
+          Page 21 of 25
+          <input id="searchTeam" class="fancySearch" type="text" placeholder="Enter team name">
+          <button class="searchTeamButton" onclick="return donateTeamSearch();">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  console.log("tournament id: [[S80:frID]]");
+
+ function donateParticipantSearch() {
+   var fname = $("#donateParticipantFName").val();
+   var lname = $("#donateParticipantLName").val();
+   window.location.href = "http://support.heartandstroke.ca/site/TR/F16MOF/F16MOF?pg=pfind&fr_id=[[S80:frID]]&searchFirstName=" + fname + "&searchLastName=" + lname + "&fr_search_type=participant&fr_find_search=Search&submit=true&pw_id=1721";
+ }
+
+ function donateTeamSearch() {
+   teamName = $("#searchTeam").val();
+   window.location.href = "http://support.heartandstroke.ca/site/TR/F16MOF/F16MOF?pg=pfind&fr_id=[[S80:frID]]&searchTeam=" + teamName + "&fr_search_type=team&fr_find_search=Search&submit=true&pw_id=1721";
+ }
+ $(document).ready(function() {
+   $("#donateShowFindParticipant").click(function() {
+     $(".listTeams").empty();
+     $(".actionBoxToggle").hide();
+     $("#donateShowFindParticipant").removeClass("joinExpanded joinActive");
+     if ($(this).hasClass("joinExpanded")) {
+       $(this).removeClass("joinExpanded joinActive");
+     } else {
+       $("#donateShowFindParticipant").toggleClass("joinExpanded");
+       $("#donateShowFindParticipant").toggleClass("joinActive");
+       $("#donateFindParticipant").slideToggle();
+     }
+   });
+   $("#donateShowFindTeam").click(function() {
+     $(".actionBoxToggle").hide();
+     $(".listTeams").empty();
+     $("#donateShowFindParticipant").removeClass("joinExpanded joinActive");
+     if ($(this).hasClass("joinExpanded")) {
+       $(this).removeClass("joinExpanded joinActive");
+     } else {
+       $("#donateShowFindTeam").toggleClass("joinExpanded");
+       $("#donateShowFindTeam").toggleClass("joinActive");
+       $("#donateFindTeam").slideToggle();
+     }
+   });
+   $("#searchTeam").keyup(function(e) {
+     if (e.keyCode == 13) {
+       return donateTeamSearch();
+     }
+   });
+   $("#donateParticipantFName, #donateParticipantLName").keyup(function(e) {
+     if (e.keyCode == 13) {
+       return donateParticipantSearch();
+     }
+   });
+ });
+</script>
