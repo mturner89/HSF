@@ -13,9 +13,14 @@ HSF repository for HTML, CSS &amp; JS
 <li>Contains the two animation CSS files necessary to run the site in the dev environment</li>
 </ul>
 
-<b>Other</b>
+<b>Surveys </b>
 <ul>
 <li>Survey/Form style overrides</li>
 <li>Custom JS file for hiding/showing survey questions based on response to other questions</li>
+</ul>
+
+<b>Other</b>
+<ul>
+<li>Navigation function and minified version of my responsive grid framework in "style.min.css"</li>
 </ul>
 
