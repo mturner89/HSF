@@ -86,12 +86,16 @@ fieldset > table > tbody > tr > td:last-child > label {
 /*********************************************** RFH NL Volunteer Custom Styles *********************************************/
 /***************************************************************************************************************************/
 
-fieldset > table > tbody > tr:first-child > td:last-child > label {
+fieldset > table > tbody > tr:first-child > td:last-child > label,
+fieldset > table > tbody > tr:nth-child(3) > td:last-child > label,
+fieldset > table > tbody > tr:nth-child(6) > td:last-child > label{
   color:#555555;
   font-size:15px;
   font-weight:bold;
 }
-fieldset > table > tbody > tr:first-child > td:first-child {
+fieldset > table > tbody > tr:first-child > td:first-child,
+fieldset > table > tbody > tr:nth-child(3) > td:first-child,
+fieldset > table > tbody > tr:nth-child(6) > td:first-child{
   visibility:hidden;
 }
 
