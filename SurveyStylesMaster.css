@@ -92,7 +92,7 @@ fieldset > table > tbody > tr:first-child > td:last-child > label {
   font-weight:bold;
 }
 fieldset > table > tbody > tr:first-child > td:first-child {
-  display:none;
+  visibility:hidden;
 }
 
 
