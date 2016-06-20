@@ -10,3 +10,15 @@ $(document).ready(function(){
       }
     });
   });
+
+
+
+
+
+/*
+$(document).ready(function(){
+    $('#947_5061_9_19577_1').closest('td').css("visibility", "hidden");
+    $('#947_5061_9_19577_3').closest('td').css("visibility", "hidden");
+    $('#947_5061_9_19577_6').closest('td').css("visibility", "hidden");   
+  });
+*/
