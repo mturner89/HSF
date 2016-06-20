@@ -7,6 +7,9 @@
   color: #ef3e42;
   margin: 30px 0 20px 0;
 }
+.appArea > p {
+  font-weight:bold;
+}
 .appArea:nth-child(2) {
   width:1000px;
 }
